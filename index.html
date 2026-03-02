@@ -4,71 +4,96 @@
     <meta charset="UTF-8">
     <title>G Dhilli Prasad | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
 
-    <header>
-        <h1>G Dhilli Prasad</h1>
-        <p>Salesforce Certified Agentforce Specialist | Aspiring Salesforce Administrator | Data Analyst</p>
-    </header>
+<nav>
+    <h2>Dhilli Prasad</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#trailhead">Trailhead</a></li>
+        <li><a href="#gfg">Campus Mantri</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>
-            BTech AI & Data Science student passionate about building scalable CRM solutions 
-            and data-driven insights. Certified Salesforce Agentforce Specialist with internship 
-            experience in data analytics and dashboard development.
-        </p>
-    </section>
+<header>
+    <h1>G Dhilli Prasad</h1>
+    <p>Salesforce Certified Agentforce Specialist | Data Analyst | AI & DS Student</p>
+    <a href="resume.pdf" class="btn">Download Resume</a>
+</header>
 
-    <section class="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Salesforce Administration</li>
-            <li>Apex Basics</li>
-            <li>Java</li>
-            <li>SQL</li>
-            <li>Python</li>
-            <li>Power BI</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        BTech AI & Data Science student passionate about Salesforce CRM solutions 
+        and data analytics. Certified Salesforce Agentforce Specialist with hands-on 
+        experience in dashboards, automation, and data visualization.
+    </p>
+</section>
 
-    <section class="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Salesforce Certified Agentforce Specialist</li>
-            <li>ATF 2025 – Stage 2 Candidate</li>
-        </ul>
-    </section>
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card-container">
+        <div class="card">Salesforce Administration</div>
+        <div class="card">Apex Basics</div>
+        <div class="card">Java</div>
+        <div class="card">SQL</div>
+        <div class="card">Python</div>
+        <div class="card">Power BI</div>
+        <div class="card">Git & GitHub</div>
+        <div class="card">Amazon EC2</div>
+    </div>
+</section>
 
-    <section class="experience">
-        <h2>Experience</h2>
-        <p><strong>Infosys Springboard – Internship Trainee</strong></p>
-        <p>Data modeling, dashboards, and reporting.</p>
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+        <h3>Stock Market Forecasting</h3>
+        <p>Time Series forecasting project using Python, data preprocessing, and visualization.</p>
+    </div>
+</section>
 
-        <p><strong>Zidio Development – Data Specialist</strong></p>
-        <p>Data preprocessing, visualization using Python & Power BI.</p>
-    </section>
+<section id="trailhead">
+    <h2>Salesforce Trailhead Profile</h2>
+    <p>Explore my Salesforce achievements and badges:</p>
+    <a href="https://www.salesforce.com/trailblazer/dhilliprasad9100" target="_blank" class="btn">
+        View Trailhead Profile
+    </a>
+</section>
 
-    <section class="contact">  
-        <h2>Contact</h2>
-        <p>Email: dhilliprasad579@gmail.com</p>
-        <p>Location: Tirupati, Andhra Pradesh</p>
-        <p>
-            <a href="https://www.linkedin.com/in/dhilli-prasad-3aa89030a" target="_blank">LinkedIn</a>
-        </p>
-    </section>
+<section id="gfg">
+    <h2>GeeksforGeeks Campus Mantri</h2>
+    <p>
+        Serving as Campus Ambassador at GeeksforGeeks.
+        Responsible for organizing technical events, workshops,
+        promoting coding culture, and engaging students in tech learning.
+    </p>
+    <ul>
+        <li>Organized technical sessions</li>
+        <li>Promoted DSA & coding culture</li>
+        <li>Connected students with industry-level resources</li>
+    </ul>
+</section>
 
-    <section class="qr-section">
-        <h2>Scan My Portfolio</h2>
-        <img id="qrCode" src="" alt="QR Code">
-        <p>Scan to view this portfolio online</p>
-    </section>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: dhilliprasad579@gmail.com</p>
+    <p>Location: Tirupati, Andhra Pradesh</p>
+    <a href="https://www.linkedin.com/in/dhilli-prasad-3aa89030a" target="_blank">LinkedIn</a>
+</section>
 
-    <footer>
-        <p>© 2026 G Dhilli Prasad | Built with ❤️</p>
-    </footer>
+<section id="qr-section">
+    <h2>Scan My Portfolio</h2>
+    <div id="qrcode"></div>
+</section>
+
+<footer>
+    <p>© 2026 G Dhilli Prasad | Built with ❤️</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
