@@ -1,97 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>G Dhilli Prasad | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G Dhilli Prasad | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
+
 <body>
 
 <nav>
-    <h2>Dhilli Prasad</h2>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#trailhead">Trailhead</a></li>
-        <li><a href="#gfg">Campus Mantri</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+  <h2>Dhilli Prasad</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </nav>
 
-<header>
-    <h1>G Dhilli Prasad</h1>
-    <p>Salesforce Certified Agentforce Specialist | Data Analyst | AI & DS Student</p>
-    <a href="resume.pdf" class="btn">Download Resume</a>
-</header>
+<section id="home" class="hero">
+  <h1>Hi, I'm G Dhilli Prasad</h1>
+  <h3><span id="typing"></span></h3>
+  <a href="resume.pdf" class="btn">Download Resume</a>
+</section>
 
 <section id="about">
-    <h2>About Me</h2>
-    <p>
-        BTech AI & Data Science student passionate about Salesforce CRM solutions 
-        and data analytics. Certified Salesforce Agentforce Specialist with hands-on 
-        experience in dashboards, automation, and data visualization.
-    </p>
+  <h2>About Me</h2>
+  <p>
+    BTech AI & Data Science student passionate about Salesforce CRM, Data Analytics, 
+    and building scalable solutions. Salesforce Certified Agentforce Specialist 
+    with internship experience in Infosys Springboard and Zidio Development.
+  </p>
 </section>
 
 <section id="skills">
-    <h2>Technical Skills</h2>
-    <div class="card-container">
-        <div class="card">Salesforce Administration</div>
-        <div class="card">Apex Basics</div>
-        <div class="card">Java</div>
-        <div class="card">SQL</div>
-        <div class="card">Python</div>
-        <div class="card">Power BI</div>
-        <div class="card">Git & GitHub</div>
-        <div class="card">Amazon EC2</div>
-    </div>
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">Salesforce Administration</div>
+    <div class="card">Apex Basics</div>
+    <div class="card">Java</div>
+    <div class="card">SQL</div>
+    <div class="card">Python</div>
+    <div class="card">Power BI</div>
+    <div class="card">Git & GitHub</div>
+    <div class="card">Amazon EC2</div>
+  </div>
 </section>
 
 <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-        <h3>Stock Market Forecasting</h3>
-        <p>Time Series forecasting project using Python, data preprocessing, and visualization.</p>
-    </div>
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>BookMyShow Clone</h3>
+    <p>Movie booking web application clone.</p>
+    <a href="https://github.com/Dhilli-prasad/bookmy_show" target="_blank">View Code</a>
+  </div>
+
+  <div class="project-card">
+    <h3>TicTacToe Java</h3>
+    <p>Console-based Java game implementation.</p>
+    <a href="https://github.com/Dhilli-prasad/TicTacToe-java" target="_blank">View Code</a>
+  </div>
+
+  <div class="project-card">
+    <h3>Zidio Data Project</h3>
+    <p>Data preprocessing and visualization project.</p>
+    <a href="https://github.com/Dhilli-prasad/zidio_project" target="_blank">View Code</a>
+  </div>
+
+  <div class="project-card">
+    <h3>Infosys Detection Project</h3>
+    <p>Detection system developed during Infosys internship.</p>
+    <a href="https://github.com/Dhilli-prasad/detection-infosys" target="_blank">View Code</a>
+  </div>
+
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <p><strong>Infosys Springboard – Internship Trainee</strong></p>
+  <p>Worked on data modeling, dashboards, and reporting.</p>
+
+  <p><strong>Zidio Development – Data Specialist</strong></p>
+  <p>Worked on data cleaning, preprocessing, and visualization using Python & Power BI.</p>
+
+  <p><strong>GeeksforGeeks – Campus Mantri</strong></p>
+  <p>Organized workshops, promoted coding culture, and engaged students in technical learning initiatives.</p>
 </section>
 
 <section id="trailhead">
-    <h2>Salesforce Trailhead Profile</h2>
-    <p>Explore my Salesforce achievements and badges:</p>
-    <a href="https://www.salesforce.com/trailblazer/dhilliprasad9100" target="_blank" class="btn">
-        View Trailhead Profile
-    </a>
-</section>
-
-<section id="gfg">
-    <h2>GeeksforGeeks Campus Mantri</h2>
-    <p>
-        Serving as Campus Ambassador at GeeksforGeeks.
-        Responsible for organizing technical events, workshops,
-        promoting coding culture, and engaging students in tech learning.
-    </p>
-    <ul>
-        <li>Organized technical sessions</li>
-        <li>Promoted DSA & coding culture</li>
-        <li>Connected students with industry-level resources</li>
-    </ul>
+  <h2>Salesforce Trailhead Profile</h2>
+  <a href="https://www.salesforce.com/trailblazer/dhilliprasad9100" target="_blank" class="btn">
+    View Trailhead Profile
+  </a>
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: dhilliprasad579@gmail.com</p>
-    <p>Location: Tirupati, Andhra Pradesh</p>
-    <a href="https://www.linkedin.com/in/dhilli-prasad-3aa89030a" target="_blank">LinkedIn</a>
+  <h2>Contact</h2>
+  <p>Email: dhilliprasad579@gmail.com</p>
+  <p>Location: Tirupati, Andhra Pradesh</p>
+  <a href="https://www.linkedin.com/in/dhilli-prasad-3aa89030a" target="_blank">LinkedIn</a>
 </section>
 
-<section id="qr-section">
-    <h2>Scan My Portfolio</h2>
+<section id="qr">
+  <h2>Scan My Portfolio</h2>
+  <div id="qrcode"></div>
 </section>
 
 <footer>
-    <p>© 2026 G Dhilli Prasad | Built with ❤️</p>
+  <p>© 2026 G Dhilli Prasad | Built with ❤️</p>
 </footer>
 
 <script src="script.js"></script>
